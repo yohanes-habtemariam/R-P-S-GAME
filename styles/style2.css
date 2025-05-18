@@ -1,0 +1,82 @@
+ body {
+      background-color: rgb(25, 25, 25);
+      font-family: arial;
+    }
+  
+
+    .tittle {
+      color: rgb(253, 251, 242);
+      font-weight: 700;
+      font-size: 60px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .image-icon {
+      height: 60px;
+    }
+
+    .image-button {
+      background-color: transparent;
+      width: 150px;
+      height: 150px;
+      border: 3px solid white;
+      border-radius: 75px;
+      margin-right: 20px;
+      margin-bottom: 25px;
+      cursor: pointer;
+    }
+
+
+    
+    .result {
+      color:  white;
+      font-family: arial;
+      font-size: 27px;
+      font-weight: 700;
+      margin-bottom: 25px;
+    }
+
+    .move {
+      color: rgb(193, 209, 255);
+      margin-bottom: 50px;
+
+    }
+    .score {
+      color: white;
+    }
+    .reset-score-button {
+      padding: 10px 15px;
+      font-size: 16px;
+      font-weight: bold; 
+      background-color: rgb(9, 226, 255);
+      border: none;
+      border-radius: 5px;
+
+    }
+
+    
+@media (max-width: 680px) {
+  .tittle {
+    width: 100%;
+    font-size: 40px;
+    margin-top: 0;
+    background-color: aqua;
+    width: 340px;
+    color: black;
+    padding: 10px 15px;
+  }
+   .image-icon {
+      height: 40px;
+    }
+.image-button {
+      background-color: transparent;
+      width: 90px;
+      height: 90px;
+      border: 3px solid white;
+      border-radius: 45px;
+      margin-right: 20px;
+      margin-bottom: 25px;
+      cursor: pointer;
+}
+
+}
+
