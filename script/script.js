@@ -7,6 +7,25 @@
    };
    
    updateScoreElement(); 
+
+ let isAutoplaying = false;
+   let intervalId;
+
+   function autoPlay() {
+ 
+
+  if (!isAutoplaying) {
+    intervalId = setInterval(function() {
+     const move = pickComputerMove();
+     playGame(move);
+    }, 1000)
+    isAutoplaying = true;
+  } else {
+    clearInterval(intervalId);
+    isAutoplaying = false;
+  }
+
+   }
    
 
     function playGame(playerMove) {
